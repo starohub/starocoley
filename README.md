@@ -6,6 +6,8 @@
 
 $1 / each built apk file
 
+[Buy on Fiverr](https://www.fiverr.com/share/Yo6LLR)
+
 ### How to run
 
 1. Download [Staro Coley 0.0.1](https://starohub.nyc3.digitaloceanspaces.com/coley/0.0.1/starocoley-0.0.1.zip)
