@@ -16,13 +16,15 @@ $1 / each built apk file
 
 4. Set environment variable "JAVA_HOME" to folder containing Java SE Runtime 8.
 
-5a. If you are running Unix:
+5. Copy license file which we sent to you after you purchased software to /prg/starocoley/sample
+
+6. If you are running Unix:
 ```
 cd /prg/starocoley
 starocoley.sh sample/config.json payara
 ```
 
-5b. If you are running Windows:
+7. If you are running Windows:
 ```
 cd /d/prg/starocoley
 starocoley.bat sample/config.json payara
