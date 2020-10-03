@@ -12,6 +12,10 @@ $1 / each built apk file
 
 [Buy on Fiverr](https://www.fiverr.com/share/Yo6LLR)
 
+### Sample built APK
+
+[Staro Payara](https://github.com/starohub/staroayu/raw/main/dl/staropayara.apk)
+
 ### How to run
 
 1. View and agree [License of Staro Coley 0.0.2](https://github.com/starohub/starocoley/blob/master/LICENSE.md). Download [Staro Coley 0.0.2](https://starohub.nyc3.digitaloceanspaces.com/coley/0.0.2/starocoley-0.0.2.zip)
