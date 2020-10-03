@@ -2,6 +2,10 @@
 
 # Staro Coley - HTML to APK Converter
 
+### License
+
+[Staro Commercial License](https://github.com/starohub/starocoley/blob/master/LICENSE.md)
+
 ### Price
 
 $1 / each built apk file
@@ -10,7 +14,7 @@ $1 / each built apk file
 
 ### How to run
 
-1. Download [Staro Coley 0.0.1](https://starohub.nyc3.digitaloceanspaces.com/coley/0.0.1/starocoley-0.0.1.zip)
+1. View and agree [License of Staro Coley 0.0.2](https://github.com/starohub/starocoley/blob/master/LICENSE.md). Download [Staro Coley 0.0.2](https://starohub.nyc3.digitaloceanspaces.com/coley/0.0.2/starocoley-0.0.2.zip)
 
 2. Extract downloaded zip file, for example to /prg/starocoley
 
@@ -18,7 +22,7 @@ $1 / each built apk file
 
 4. Set environment variable "JAVA_HOME" to folder containing Java SE Runtime 8.
 
-5. Copy license file which we sent to you after you purchased software to /prg/starocoley/sample
+5. Copy license file which we sent to you after you purchased software to /prg/starocoley . Please [purchase software via Fiverr](https://www.fiverr.com/share/Yo6LLR).
 
 6. If you are running Unix:
 ```
