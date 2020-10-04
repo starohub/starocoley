@@ -1,0 +1,29 @@
+{
+  "pie-eater": {
+    "bufferFolder": ".\\buffer",
+    "keyStoreAlias": "starocoley",
+    "roundIconFile": ".\\pie-eater.png",
+    "keyStorePassword": "starocoley",
+    "appName": "Pie Eater",
+    "appId": "com.starohub.coley.sample.pieeater",
+    "iconFile": ".\\pie-eater.png",
+    "webPkgFile": ".\\public",
+    "apkFile": "..\\pie-eater.apk",
+    "keyStoreFile": ".\\starocoley.jks",
+    "keyStoreAliasPassword": "starocoley",
+	"webdConfigFile": ".\\starowebd.cfg",
+	"adsStart": 0,
+	"adsTime": 180,
+	"adsInJSB": true,
+	"startingPath": "/index.jsb",
+	"blueprintCode": "com.starohub.trial.blueprint",
+	"actionMenu": [
+		{
+			"name": "Play Game", 
+			"uri": "/index.jsb", 
+			"code": "menu_play_game"
+		}
+	]
+  },
+  "LICENSE": "..\\starocoley.lic"
+}
