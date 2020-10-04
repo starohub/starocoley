@@ -18,6 +18,14 @@ $1 / each built apk file
 
 * Username/password: webd / webd
 
+##### Pie Eater
+
+[![Pie Eater](https://github.com/starohub/starocoley/raw/master/samples/pie-eater/src/pie-eater.png)](https://github.com/starohub/starocoley/tree/master/samples/pie-eater)
+
+##### Yummy Tales
+
+[![Yummy Tales](https://github.com/starohub/starocoley/raw/master/samples/yummy-tales/src/yummy-tales.png)](https://github.com/starohub/starocoley/tree/master/samples/yummy-tales)
+
 ### How to run
 
 1. View and agree [License of Staro Coley 0.0.2](https://github.com/starohub/starocoley/blob/master/LICENSE.md). Download [Staro Coley 0.0.2](https://starohub.nyc3.digitaloceanspaces.com/coley/0.0.2/starocoley-0.0.2.zip)
