@@ -5,7 +5,7 @@
     "roundIconFile": ".\\yummy-tales.png",
     "keyStorePassword": "starocoley",
     "appName": "Yummy Tales",
-    "appId": "com.starohub.coley.sample.pieeater",
+    "appId": "com.starohub.coley.sample.yummytales",
     "iconFile": ".\\yummy-tales.png",
     "webPkgFile": ".\\public",
     "apkFile": "..\\yummy-tales.apk",
