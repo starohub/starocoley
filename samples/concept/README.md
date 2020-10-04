@@ -11,3 +11,12 @@
 * [Source code for building Android app](https://github.com/starohub/starocoley/raw/master/samples/concept/concept.zip) with [Staro Coley - HTML to APK Converter](https://www.fiverr.com/share/Yo6LLR)
 
 # Prototype with HTML & JSB
+
+* Deliver prototype via Android app
+
+* Design UI with HTML, CSS, JavaScript & Velocity Template Engine
+
+* Code mocked processes with Java & JSB (JavaScript Sandbox)
+
+* Suitable for fast development
+
