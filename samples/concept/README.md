@@ -10,4 +10,4 @@
 
 * [Source code for building Android app](https://github.com/starohub/starocoley/raw/master/samples/concept/concept.zip) with [Staro Coley - HTML to APK Converter](https://www.fiverr.com/share/Yo6LLR)
 
-# Build prototype with HTML
+# Prototype with HTML & JSB
