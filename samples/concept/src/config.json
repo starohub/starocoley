@@ -1,0 +1,29 @@
+{
+  "concept": {
+    "bufferFolder": ".\\buffer",
+    "keyStoreAlias": "starocoley",
+    "roundIconFile": ".\\staro.png",
+    "keyStorePassword": "starocoley",
+    "appName": "Concept (Prototype)",
+    "appId": "com.starohub.coley.sample.concept",
+    "iconFile": ".\\staro.png",
+    "webPkgFile": ".\\public",
+    "apkFile": "..\\concept.apk",
+    "keyStoreFile": ".\\starocoley.jks",
+    "keyStoreAliasPassword": "starocoley",
+	"webdConfigFile": ".\\starowebd.cfg",
+	"adsStart": -1,
+	"adsTime": -1,
+	"adsInJSB": true,
+	"startingPath": "/index.html",
+	"blueprintCode": "com.starohub.trial.blueprint",
+	"actionMenu": [
+		{
+			"name": "Home", 
+			"uri": "/index.html", 
+			"code": "menu_home"
+		}
+	]
+  },
+  "LICENSE": "..\\starocoley.lic"
+}

@@ -9,3 +9,7 @@
 ### Yummy Tales
 
 [![Yummy Tales](https://github.com/starohub/starocoley/raw/master/samples/yummy-tales/src/yummy-tales.png)](https://github.com/starohub/starocoley/tree/master/samples/yummy-tales)
+
+### Concept (Prototype)
+
+[![Concept](https://github.com/starohub/starocoley/raw/master/samples/concept/src/public/assets/images/logo.png)](https://github.com/starohub/starocoley/tree/master/samples/concept)
