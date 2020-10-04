@@ -1,0 +1,7 @@
+{
+  "code": "com.starohub.trial.blueprint",
+  "name": "Staro Trial - BluePrint",
+  "jars": [
+    "starotrial.blueprint.jar"
+  ]
+}
