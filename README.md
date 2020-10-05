@@ -28,7 +28,7 @@ $1 / each built apk file
 
 ### How to run
 
-1. View and agree [License of Staro Coley 0.0.2](https://github.com/starohub/starocoley/blob/master/LICENSE.md). Download [Staro Coley 0.0.2](https://starohub.nyc3.digitaloceanspaces.com/coley/0.0.2/starocoley-0.0.2.zip)
+1. View and agree [License of Staro Coley 0.0.3](https://github.com/starohub/starocoley/blob/master/LICENSE.md). Download [Staro Coley 0.0.3](https://starohub.nyc3.cdn.digitaloceanspaces.com/coley/0.0.3/starocoley-0.0.3.zip)
 
 2. Extract downloaded zip file, for example to /prg/starocoley
 
@@ -39,14 +39,54 @@ $1 / each built apk file
 5. Copy license file which we sent to you after you purchased software to /prg/starocoley . Please [purchase software via Fiverr](https://www.fiverr.com/share/Yo6LLR).
 
 6. If you are running Unix:
+
+* Build Pie Eater
 ```
 cd /prg/starocoley
-starocoley.sh sample/config.json payara
+starocoley.sh spl/pie-eater/config.json pie-eater
+```
+
+* Build Yummy Tales
+```
+cd /prg/starocoley
+starocoley.sh spl/yummy-tales/config.json yummy-tales
+```
+
+* Build Staro Payara
+```
+cd /prg/starocoley
+starocoley.sh spl/payara/config.json payara
+```
+
+* Run builder GUI
+```
+cd /prg/starocoley
+starocoley-gui.sh
 ```
 
 7. If you are running Windows:
+
+* Build Pie Eater
 ```
-cd /d/prg/starocoley
-starocoley.bat sample/config.json payara
+cd d:\prg\starocoley
+starocoley.bat spl\pie-eater\config.json pie-eater
+```
+
+* Build Yummy Tales
+```
+cd d:\prg\starocoley
+starocoley.bat spl\yummy-tales\config.json yummy-tales
+```
+
+* Build Staro Payara
+```
+cd d:\prg\starocoley
+starocoley.bat spl\payara\config.json payara
+```
+
+* Run builder GUI
+```
+cd d:\prg\starocoley
+starocoley-gui.bat
 ```
 
