@@ -38,7 +38,7 @@ $1 / each built apk file
 
 4. Set environment variable "JAVA_HOME" to folder containing Java SE Runtime 8.
 
-5. Copy license file which we sent to you after you purchased software to /prg/starocoley . Please [purchase software via Fiverr](https://www.fiverr.com/share/Yo6LLR).
+5. Copy license file which we sent to you after you purchased software to /prg/starocoley or d:\prg\starocoley . Please [purchase software via Fiverr](https://www.fiverr.com/share/Yo6LLR).
 
 6. If you are running Unix:
 
