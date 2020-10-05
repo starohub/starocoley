@@ -1,0 +1,10 @@
+[
+  {
+    "find": "/p/(\\w+)/(\\w+)",
+	"replace": "/post.jsb?code=$1&slug=$2"
+  },
+  {
+    "find": "/a/(\\w+)/(\\w+)",
+	"replace": "/article.jsm?code=$1&slug=$2"
+  }  
+]

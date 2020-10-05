@@ -10,6 +10,10 @@
 
 [![Yummy Tales](https://github.com/starohub/starocoley/raw/master/samples/yummy-tales/src/yummy-tales.png)](https://github.com/starohub/starocoley/tree/master/samples/yummy-tales)
 
+### Staro Payara
+
+[Test Staro WebD on Android](https://github.com/starohub/starocoley/tree/master/samples/payara)
+
 ### Concept (Prototype)
 
 [![Concept](https://github.com/starohub/starocoley/raw/master/samples/concept/src/public/assets/images/logo.png)](https://github.com/starohub/starocoley/tree/master/samples/concept)

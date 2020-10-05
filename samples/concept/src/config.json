@@ -1,22 +1,25 @@
 {
   "concept": {
-    "bufferFolder": ".\\buffer",
+    "bufferFolder": "./buffer",
     "keyStoreAlias": "starocoley",
-    "roundIconFile": ".\\staro.png",
+    "roundIconFile": "./staro.png",
     "keyStorePassword": "starocoley",
     "appName": "Concept (Prototype)",
     "appId": "com.starohub.coley.sample.concept",
-    "iconFile": ".\\staro.png",
-    "webPkgFile": ".\\public",
-    "apkFile": "..\\concept.apk",
-    "keyStoreFile": ".\\starocoley.jks",
+    "iconFile": "./staro.png",
+    "webPkgFile": "./public",
+    "apkFile": "../concept.apk",
+    "keyStoreFile": "./starocoley.jks",
     "keyStoreAliasPassword": "starocoley",
-	"webdConfigFile": ".\\starowebd.cfg",
+	"webdConfigFile": "./starowebd.cfg",
 	"adsStart": -1,
 	"adsTime": -1,
 	"adsInJSB": true,
 	"startingPath": "/index.html",
 	"blueprintCode": "com.starohub.trial.blueprint",
+	"actionMenuIconFile": "./playagame.png",
+	"splashScreenFile": "./playagame.html",
+	"appTitleBarColor": "#22ac4b",
 	"actionMenu": [
 		{
 			"name": "Home", 
@@ -25,5 +28,5 @@
 		}
 	]
   },
-  "LICENSE": "..\\starocoley.lic"
+  "LICENSE": "../../starocoley.lic"
 }

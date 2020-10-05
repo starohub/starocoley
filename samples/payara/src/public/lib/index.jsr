@@ -1,0 +1,10 @@
+[
+  {
+    "find": "/([\\w\\.]+)",
+	"replace": "/index.jsb"
+  },
+  {
+    "find": "/([\\w\\.]+)/([\\w\\.]+)",
+	"replace": "/index.jsb"
+  }  
+]

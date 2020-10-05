@@ -1,0 +1,7 @@
+{
+  "code": "com.starohub.trial.plugin",
+  "name": "Staro Trial - Plugin",
+  "jars": [
+    "starotrial.plugin.jar"
+  ]
+}

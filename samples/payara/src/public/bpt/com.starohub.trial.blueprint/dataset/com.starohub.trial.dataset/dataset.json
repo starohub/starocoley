@@ -1,0 +1,7 @@
+{
+  "code": "com.starohub.trial.dataset",
+  "name": "Staro Trial - DataSet",
+  "jars": [
+    "starotrial.dataset.jar"
+  ]
+}

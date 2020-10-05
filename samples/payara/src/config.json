@@ -1,0 +1,48 @@
+{
+  "payara": {
+    "bufferFolder": "./buffer",
+    "keyStoreAlias": "starocoley",
+    "roundIconFile": "./smash-{size}.png",
+    "keyStorePassword": "starocoley",
+    "appName": "Staro Payara",
+    "appId": "com.starohub.payara",
+    "iconFile": "./staro.png",
+    "webPkgFile": "./public",
+    "apkFile": "../staropayara.apk",
+    "keyStoreFile": "./starocoley.jks",
+    "keyStoreAliasPassword": "starocoley",
+	"webdConfigFile": "./starowebd.cfg",
+	"adsStart": 0,
+	"adsTime": 0,
+	"adsInJSB": true,
+	"startingPath": "/",
+	"blueprintCode": "com.starohub.trial.blueprint",
+	"actionMenuIconFile": "./playagame.png",
+	"splashScreenFile": "./playagame.html",
+	"appTitleBarColor": "#22ac4b",
+	"actionMenu": [
+		{
+			"name": "Home", 
+			"uri": "/", 
+			"code": "menu_home"
+		}, 
+		{
+			"name": "Help", 
+			"uri": "https://github.com/starohub/starowebd", 
+			"code": 
+			"menu_help"
+		}, 
+		{
+			"name": "Google", 
+			"uri": "https://www.google.com", 
+			"code": "menu_google"
+		}, 
+		{
+			"name": "Bing", 
+			"uri": "https://www.bing.com", 
+			"code": "menu_bing"
+		}	
+	]
+  },
+  "LICENSE": "../../starocoley.lic"
+}

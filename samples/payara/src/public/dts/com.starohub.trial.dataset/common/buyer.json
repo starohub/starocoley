@@ -1,0 +1,5 @@
+{
+  "bc__a__de": "Hello world!",
+  "b": "Hello __b__!",
+  "c": "__c__"
+}
