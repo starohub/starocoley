@@ -12,12 +12,6 @@ $1 / each built apk file
 
 [Buy on Fiverr](https://www.fiverr.com/share/Yo6LLR)
 
-### Sample built APK
-
-[Staro Payara](https://github.com/starohub/staroayu/raw/main/dl/staropayara.apk)
-
-* Username/password: webd / webd
-
 ##### Pie Eater
 
 [![Pie Eater](https://github.com/starohub/starocoley/raw/master/samples/pie-eater/src/pie-eater.png)](https://github.com/starohub/starocoley/tree/master/samples/pie-eater)
@@ -25,6 +19,12 @@ $1 / each built apk file
 ##### Yummy Tales
 
 [![Yummy Tales](https://github.com/starohub/starocoley/raw/master/samples/yummy-tales/src/yummy-tales.png)](https://github.com/starohub/starocoley/tree/master/samples/yummy-tales)
+
+### Test Staro WebD on Android
+
+[Staro Payara](https://github.com/starohub/starocoley/raw/master/samples/payara/staropayara.apk)
+
+* Username/password: webd / webd
 
 ### How to run
 
