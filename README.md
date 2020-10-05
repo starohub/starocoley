@@ -30,7 +30,7 @@ $1 / each built apk file
 
 1. View and agree [License of Staro Coley 0.0.3](https://github.com/starohub/starocoley/blob/master/LICENSE.md). Download [Staro Coley 0.0.3](https://starohub.nyc3.cdn.digitaloceanspaces.com/coley/0.0.3/starocoley-0.0.3.zip)
 
-2. Extract downloaded zip file, for example to /prg/starocoley
+2. Extract downloaded zip file, for example to /prg/starocoley or d:\prg\starocoley
 
 3. Download and install [Oracle Java SE Runtime 8](https://www.oracle.com/java/technologies/javase-jre8-downloads.html)
 
