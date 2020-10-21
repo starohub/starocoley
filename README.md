@@ -30,65 +30,46 @@ $1 / each built apk file
 
 ### How to run
 
-1. View and agree [License of Staro Coley 0.0.3](https://github.com/starohub/starocoley/blob/master/LICENSE.md). Download [Staro Coley 0.0.3](https://starohub.nyc3.cdn.digitaloceanspaces.com/coley/0.0.3/starocoley-0.0.3.zip)
+1. [Create new account on Algorithmia.com](https://algorithmia.com/signup) if you have not one.
 
-2. Extract downloaded zip file, for example to /prg/starocoley or d:\prg\starocoley
+2. [Purchase software via Fiverr](https://www.fiverr.com/share/Yo6LLR). Write down your order no. from Fiverr, for example, FAEWAG2
 
-3. Download and install [Oracle Java SE Runtime 8](https://www.oracle.com/java/technologies/javase-jre8-downloads.html)
+3. Create a data collection whose name is order no., for example, data://.my/FAEWAG2
 
-4. Set environment variable "JAVA_HOME" to folder containing Java SE Runtime 8.
+4a. Run following command to generate buyer info file
 
-5. Copy license file which we sent to you after you purchased software to /prg/starocoley or d:\prg\starocoley . Please [purchase software via Fiverr](https://www.fiverr.com/share/Yo6LLR).
-
-6. If you are running Unix:
-
-* Build Pie Eater
 ```
-cd /prg/starocoley
-starocoley.sh spl/pie-eater/config.json pie-eater
-```
-
-* Build Yummy Tales
-```
-cd /prg/starocoley
-starocoley.sh spl/yummy-tales/config.json yummy-tales
+curl -X POST -d '{
+  "hasBuyer": "yes",
+  "buildFileUrl": "https://github.com/starohub/starocoley/raw/master/samples/pie-eater/pie-eater.zip",
+  "configFile": "./config.json",
+  "configName": "pie-eater",
+  "orderNo": "<Order No.: FAEWAG2>"
+}' -H 'Content-Type: application/json' -H 'Authorization: Simple <Algorithmia APK Key>' https://api.algorithmia.com/v1/algo/starohub/starocoley/2.0.1?timeout=300
 ```
 
-* Build Staro Payara
+4b. Get URL to download buyer information file from field 'data.buyerFileUrl' of result. Download buyer information file and send it to us via Fiverr.
+
+5. Build first apk file for setting up.
+
 ```
-cd /prg/starocoley
-starocoley.sh spl/payara/config.json payara
+curl -X POST -d '{
+  "hasBuyer": "no",
+  "buildFileUrl": "https://github.com/starohub/starocoley/raw/master/samples/pie-eater/pie-eater.zip",
+  "configFile": "./config.json",
+  "configName": "pie-eater",
+  "orderNo": "<Order No.: FAEWAG2>"
+}' -H 'Content-Type: application/json' -H 'Authorization: Simple <Algorithmia APK Key>' https://api.algorithmia.com/v1/algo/starohub/starocoley/2.0.1?timeout=300
 ```
 
-* Run builder GUI
-```
-cd /prg/starocoley
-starocoley-gui.sh
-```
+6. Build your apk:
 
-7. If you are running Windows:
-
-* Build Pie Eater
 ```
-cd d:\prg\starocoley
-starocoley.bat spl\pie-eater\config.json pie-eater
+curl -X POST -d '{
+  "hasBuyer": "no",
+  "buildFileUrl": "<Download URL or Data URL of zip file containing HTML: https://github.com/starohub/starocoley/raw/master/samples/pie-eater/pie-eater.zip>",
+  "configFile": "<Relative path to configuration file: ./config.json>",
+  "configName": "<Name of configuration item: pie-eate>r",
+  "orderNo": "<Order No.: FAEWAG2>"
+}' -H 'Content-Type: application/json' -H 'Authorization: Simple <Algorithmia APK Key>' https://api.algorithmia.com/v1/algo/starohub/starocoley/2.0.1?timeout=300
 ```
-
-* Build Yummy Tales
-```
-cd d:\prg\starocoley
-starocoley.bat spl\yummy-tales\config.json yummy-tales
-```
-
-* Build Staro Payara
-```
-cd d:\prg\starocoley
-starocoley.bat spl\payara\config.json payara
-```
-
-* Run builder GUI
-```
-cd d:\prg\starocoley
-starocoley-gui.bat
-```
-
