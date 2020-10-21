@@ -21,3 +21,6 @@ curl -X POST -d '{
   "orderNo": "<Order No.: FAEWAG2>"
 }' -H 'Content-Type: application/json' -H 'Authorization: Simple <Algorithmia APK Key>' https://api.algorithmia.com/v1/algo/starohub/starocoley/2.0.1?timeout=300
 ```
+
+5. Get URL to download buyer information file from field 'data.buyerFileUrl' of result. Download buyer information file and send it to us via Fiverr.
+
