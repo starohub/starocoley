@@ -38,7 +38,7 @@ $1 / each built apk file
 
 3. Create a data collection whose name is order no., for example, data://.my/FAEWAG2
 
-4. Run following command to generate buyer info file
+4. Run following command to generate buyer information file
 
 ```
 curl -X POST -d '{
