@@ -30,13 +30,15 @@ $1 / each built apk file
 
 ### How to run
 
+0. [Visit Staro Coley on Algorithmia.com](https://algorithmia.com/algorithms/starohub/starocoley)
+
 1. [Create new account on Algorithmia.com](https://algorithmia.com/signup) if you have not one.
 
 2. [Purchase software via Fiverr](https://www.fiverr.com/share/Yo6LLR). Write down your order no. from Fiverr, for example, FAEWAG2
 
 3. Create a data collection whose name is order no., for example, data://.my/FAEWAG2
 
-4a. Run following command to generate buyer info file
+4. Run following command to generate buyer info file
 
 ```
 curl -X POST -d '{
@@ -48,9 +50,9 @@ curl -X POST -d '{
 }' -H 'Content-Type: application/json' -H 'Authorization: Simple <Algorithmia APK Key>' https://api.algorithmia.com/v1/algo/starohub/starocoley/2.0.1?timeout=300
 ```
 
-4b. Get URL to download buyer information file from field 'data.buyerFileUrl' of result. Download buyer information file and send it to us via Fiverr.
+5. Get URL to download buyer information file from field 'data.buyerFileUrl' of result. Download buyer information file and send it to us via Fiverr.
 
-5. Build first apk file for setting up.
+6. Build first apk file for setting up.
 
 ```
 curl -X POST -d '{
@@ -62,7 +64,7 @@ curl -X POST -d '{
 }' -H 'Content-Type: application/json' -H 'Authorization: Simple <Algorithmia APK Key>' https://api.algorithmia.com/v1/algo/starohub/starocoley/2.0.1?timeout=300
 ```
 
-6. Build your apk:
+7. Build your apk:
 
 ```
 curl -X POST -d '{
