@@ -71,7 +71,7 @@ curl -X POST -d '{
   "hasBuyer": "no",
   "buildFileUrl": "<Download URL or Data URL of zip file containing HTML: https://github.com/starohub/starocoley/raw/master/samples/pie-eater/pie-eater.zip>",
   "configFile": "<Relative path to configuration file: ./config.json>",
-  "configName": "<Name of configuration item: pie-eate>r",
+  "configName": "<Name of configuration item: pie-eater>",
   "orderNo": "<Order No.: FAEWAG2>"
 }' -H 'Content-Type: application/json' -H 'Authorization: Simple <Algorithmia APK Key>' https://api.algorithmia.com/v1/algo/starohub/starocoley/2.0.1?timeout=300
 ```
