@@ -10,17 +10,8 @@
 
 3. Create a data collection whose name is order no., for example, data://.my/FAEWAG2
 
-4. Run following command to generate buyer information file
+4. Visit [this page](https://htmltoapk.com/#runnow). Click on ![](https://github.com/starohub/starocoley/raw/master/resources/images/starobuyer-coley.png) button.
 
-```
-curl -X POST -d '{
-  "hasBuyer": "yes",
-  "buildFileUrl": "https://github.com/starohub/starocoley/raw/master/samples/pie-eater/pie-eater.zip",
-  "configFile": "./config.json",
-  "configName": "pie-eater",
-  "orderNo": "<Order No.: FAEWAG2>"
-}' -H 'Content-Type: application/json' -H 'Authorization: Simple <Algorithmia APK Key>' https://api.algorithmia.com/v1/algo/starohub/starocoley/2.0.1?timeout=300
-```
+5. Fill Algorithmia API Key and Staro Coley Order No. Click on "Register" button.
 
-5. Get URL to download buyer information file from field 'data.buyerFileUrl' of result. Download buyer information file and send it to us via Fiverr.
-
+6. Download generated buyer information file and send it to us via Fiverr.
