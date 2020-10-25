@@ -6,7 +6,7 @@
 	  "blueprint",
 	  "siteUrl"
 	],
-	"data" {
+	"data": {
 		"blueprint": "com.starohub.brill",
 		"siteUrl": "https://www.techcrackblog.com"
 	}
